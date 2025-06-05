@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const app = express();
 const PORT = 6000;
 
-const mongoURL = 'mongodb+srv://shubham:1234@cluster0.2ceki.mongodb.net/Testingdata';
+const mongoURL = 'add your mongodb atlas link'
 mongoose.connect(mongoURL);
 
 app.use(express.json());
